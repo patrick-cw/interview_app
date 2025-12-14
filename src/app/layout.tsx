@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-
+export const runtime = "nodejs";
 export const metadata: Metadata = {
   title: 'InterviewPrepPro',
   description: 'Ace your next interview with AI-powered preparation.',
